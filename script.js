@@ -6,72 +6,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você está em uma convenção de tatuagens e vê um novo estilo de tatuagem que usa tecnologias avançadas para criar designs. Qual é a sua reação inicial?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Isso é incrível!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Isso é um pouco intimidante!",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Um tatuador famoso oferece um workshop sobre como usar essas novas tecnologias para criar tatuagens. No final do workshop, você é solicitado a escrever um relatório sobre a utilização dessas tecnologias. O que você faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Utilizo uma ferramenta de busca na internet que utiliza IA para ajudar a encontrar informações relevantes e explica de forma clara.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Escrevo o relatório com base nas minhas anotações durante o workshop, conversas com colegas e conhecimento pessoal sobre o tema.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Durante um debate com outros participantes sobre como a tecnologia pode transformar a arte da tatuagem, qual é a sua opinião?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Acredito que a tecnologia pode abrir novas possibilidades para artistas e criar novas formas de expressão.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Estou preocupado com a possibilidade de a tecnologia substituir a habilidade e o toque pessoal dos artistas humanos.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Depois do debate, você precisa criar um design de tatuagem no computador que represente suas ideias sobre a influência da tecnologia na arte. O que você faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Crio um design utilizando um software de design gráfico.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Crio um design utilizando um gerador de design de IA.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você está trabalhando em um projeto de tatuagem em grupo, e um membro do grupo decidiu usar a IA para gerar o design. No entanto, o design está idêntico ao fornecido pela IA. Como você reage?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Acredito que usar a IA para criar o design é válido, por isso não vejo problema em usar o design gerado.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "Embora a IA seja uma ferramenta poderosa, é importante revisar e adicionar um toque pessoal ao design para garantir originalidade.",
                 afirmacao: "afirmação"
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -111,3 +110,5 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+4
+
